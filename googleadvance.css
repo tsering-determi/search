@@ -1,0 +1,36 @@
+header {
+  text-align: right;
+}
+
+main {
+  padding: 20px;
+  margin: 20px;
+}
+main h2 {
+  color: #af2b2b;
+  font-size: 16px;
+  position: relative;
+  left: 3%;
+}
+main div {
+  position: relative;
+  left: 3%;
+  padding: 20px;
+  margin: 20px;
+}
+main div input {
+  float: right;
+  margin-right: 50%;
+  width: 300px;
+}
+main button {
+  color: white;
+  padding: 10px;
+  margin-left: 60%;
+}
+main button:hover {
+  border: black 2px solid;
+  background-color: chartreuse;
+}
+
+/*# sourceMappingURL=googleadvance.css.map */

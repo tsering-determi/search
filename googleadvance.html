@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="googleadvance.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class="navbar-brand" href="google.html">Home</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Advance Search</h2>
+            <hr>
+            <div>
+                <P> find pages with ..</P>
+                <form action="/action_page.php" method="get" id="nameform">
+                    <label for="words">all these words..         </label>
+                    <input type="text" id="words" name="fname"><br><br>
+                    <label for="phrase">this exact word or phrase:</label>
+                    <input type="text" id="phrase" name="lname"><br><br>
+                    <label for="a">any of these words:        </label>
+                    <input type="text" id="a"><br><br>
+                    <label for="b">none of these words:         </label>
+                    <input type="text" id="b"><br><br>
+                    <!-- <label for="c">numbers ranging from:</label>
+                    <input type="number" id="c">
+                    <label for="d">to:</label>
+                    <input type="number" id="d"> -->
+                  </form>
+                  <br>
+                </div>
+                <hr>
+                  <button type="submit" form="nameform" value="Submit" id="nameform" style="background-color: rgb(56, 25, 230); border:gray 2px solid; border-radius: 5px;">Advance Search</button>
+                  
+            
+        </main>
+         
+    </body>
+</html>
